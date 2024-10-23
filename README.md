@@ -53,3 +53,30 @@ To set up and run this project locally, follow these steps:
    ```bash
    git clone https://github.com/darkbit404/FaceEx.git
    cd FaceEx
+
+---
+
+## 5. Dataset
+
+The project requires a dataset containing facial images and their corresponding expression labels (e.g., happy, sad, angry, etc). You can use a public dataset like [Facial Expression Dataset](https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset) or any other dataset.
+
+Download the dataset and place it in the data/ directory.
+Ensure the structure of the dataset is as follows:
+data/
+├── train/
+│   ├── angry/
+│   ├── disgust/
+│   ├── fear/
+│   ├── happy/
+|   ├── neutral/
+|   ├── sad/
+|   ├── surprise/
+└── test/
+    ├── angry/
+    ├── disgust/
+    ├── fear/
+    ├── happy/
+    ├── neutral/
+    ├── sad/
+    ├── surprise/
+
