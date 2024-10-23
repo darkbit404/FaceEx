@@ -62,6 +62,7 @@ The project requires a dataset containing facial images and their corresponding 
 
 Download the dataset and place it in the data/ directory.
 Ensure the structure of the dataset is as follows:
+```bash
 data/
 ├── train/
 │   ├── angry/
