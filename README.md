@@ -19,8 +19,7 @@
 5. [Evaluation](#6-evaluation)
 6. [Results](#7-results)
 7. [Usage](#8-usage)
-8. [Contributing](#9-contributing)
-9. [License](#10-license)
+8. [License](#9-license)
 
 ---
 
@@ -63,6 +62,6 @@ data/
 
 ---
 
-## 10. License
+## 9. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
