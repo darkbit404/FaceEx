@@ -27,7 +27,21 @@
 
 ## 3. Project Structure
 
-Facial Expression Detection/ │ ├── data/ # Folder containing training and test datasets │ └── train/ │ └── test/ ├── models/ # Folder for saving trained models │ └── cnn_model.h5 ├── notebooks/ # Jupyter notebooks for the project │ └── Facial Expression Detection.ipynb ├── scripts/ # Python scripts for training and evaluation │ └── train.py │ └── evaluate.py ├── README.md # Project documentation (this file) ├── requirements.txt # List of dependencies └── .gitignore # Ignore unnecessary files (e.g., datasets, logs)
+Facial Expression Detection/ 
+│ 
+├── data/ # Folder containing training and test datasets 
+|  └── train/ 
+|  └── test/ 
+├── models/ # Folder for saving trained models 
+|  └── cnn_model.h5 
+├── notebooks/ # Jupyter notebooks for the project │
+|  └── Facial Expression Detection.ipynb 
+├── scripts/ # Python scripts for training and evaluation 
+|  └── train.py  
+|  └── evaluate.py 
+├── README.md # Project documentation (this file) 
+├── requirements.txt # List of dependencies 
+   └── .gitignore # Ignore unnecessary files (e.g., datasets, logs)
 
 ---
 
@@ -37,5 +51,5 @@ To set up and run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/darkbit404/FacialEx.git
-   cd FacialExpressionDetection
+   git clone https://github.com/darkbit404/FaceEx.git
+   cd FaceEx
