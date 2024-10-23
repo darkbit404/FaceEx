@@ -27,6 +27,7 @@
 
 ## 3. Project Structure
 
+```bash
 Facial Expression Detection/ 
 │ 
 ├── data/ # Folder containing training and test datasets 
