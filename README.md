@@ -32,7 +32,7 @@ To set up and run this project locally, follow these steps:
    git clone https://github.com/darkbit404/FaceEx.git
    cd FaceEx
    ```
-2, **Install the required dependencies:**
+2. **Install the required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
