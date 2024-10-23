@@ -13,40 +13,18 @@
 ## 2. Table of Contents
 
 1. [Introduction](#1-introduction)
-2. [Project Structure](#3-project-structure)
-3. [Installation](#4-installation)
-4. [Dataset](#5-dataset)
-5. [Model Training](#6-model-training)
-6. [Evaluation](#7-evaluation)
-7. [Results](#8-results)
-8. [Usage](#9-usage)
-9. [Contributing](#10-contributing)
-10. [License](#11-license)
+2. [Installation](#3-installation)
+3. [Dataset](#4-dataset)
+4. [Model Training](#5-model-training)
+5. [Evaluation](#6-evaluation)
+6. [Results](#7-results)
+7. [Usage](#8-usage)
+8. [Contributing](#9-contributing)
+9. [License](#10-license)
 
 ---
 
-## 3. Project Structure
-
-```bash
-Facial Expression Detection/ 
-│ 
-├── data/ # Folder containing training and test datasets 
-|  └── train/ 
-|  └── test/ 
-├── models/ # Folder for saving trained models 
-|  └── cnn_model.h5 
-├── notebooks/ # Jupyter notebooks for the project │
-|  └── Facial Expression Detection.ipynb 
-├── scripts/ # Python scripts for training and evaluation 
-|  └── train.py  
-|  └── evaluate.py 
-├── README.md # Project documentation (this file) 
-├── requirements.txt # List of dependencies 
-   └── .gitignore # Ignore unnecessary files (e.g., datasets, logs)
-
----
-
-## 4. Installation
+## 3. Installation
 
 To set up and run this project locally, follow these steps:
 
@@ -57,7 +35,7 @@ To set up and run this project locally, follow these steps:
 
 ---
 
-## 5. Dataset
+## 4. Dataset
 
 The project requires a dataset containing facial images and their corresponding expression labels (e.g., happy, sad, angry, etc). You can use a public dataset like [Facial Expression Dataset](https://www.kaggle.com/datasets/aadityasinghal/facial-expression-dataset) or any other dataset.
 
@@ -81,4 +59,7 @@ data/
     ├── neutral/
     ├── sad/
     ├── surprise/
+```
+
+---
 
