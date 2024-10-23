@@ -1,0 +1,9 @@
+# TensorFlow and Keras for deep learning
+tensorflow
+keras
+
+# Pandas for data manipulation
+pandas
+
+# Scikit-learn for label encoding
+scikit-learn
